@@ -22,3 +22,27 @@ else if(dela1>jim1 && dela1>chinku1){
 else{
     console.log("chinku will get the delicious cake");
 }
+
+// write a function using if else and get max-value and return
+
+function maxNumbers (num1, num2, num3){
+    if(num1>num2 && num1>num3){
+        console.log("num1 will be the max number");
+    }
+    else if(num2>num1 && num2>num3){
+        console.log("num2 wil be the max number");
+    }
+    else{
+        console.log("num3 will be the max number");
+    }
+  return(num1, num2, num3) ; 
+}
+maxNumbers(32, 85, 60);
+
+// using Math.max and Math.min...unsolved
+
+function maximumNumbers (number1, number2, number3){
+    Math.max(4, 5, 6);
+    return maximumNumbers ;
+}
+
