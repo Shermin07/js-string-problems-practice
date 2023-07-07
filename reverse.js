@@ -1,5 +1,5 @@
 function reverseString(text){
-    for(i = 0; i<= text.length; i++){
+    for(i = text.length; i>=0; i--){
         const element = text[i];
         console.log(i, element);
 
